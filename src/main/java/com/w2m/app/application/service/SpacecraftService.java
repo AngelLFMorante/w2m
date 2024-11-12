@@ -37,14 +37,14 @@ public class SpacecraftService {
     }
 
     public Spacecraft updateSpacecraft(Long id, Spacecraft spacecraft){
-        Spacecraft ship = spacecraftRepository.findById(id)
+        return spacecraftRepository.findById(id).map(
+                ship -> {
+                    ship.setName(spacecraft.getName());
+                    ship.setType(spacecraft.getType());
+                    ship.setOrigin(spacecraft.getOrigin());
+                    return spacecraftRepository.save(ship);
+                })
                 .orElseThrow(() -> new EntityNotFoundException("Spacecraft not found with id: " + id));
-
-        ship.setName(spacecraft.getName());
-        ship.setType(spacecraft.getType());
-        ship.setOrigin(spacecraft.getOrigin());
-
-        return spacecraftRepository.save(ship);
     }
 
     public void deleteSpacecraft(Long id){
