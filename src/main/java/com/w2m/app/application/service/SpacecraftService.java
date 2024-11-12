@@ -1,7 +1,7 @@
 package com.w2m.app.application.service;
 
-import com.w2m.app.domino.Spacecraft;
-import com.w2m.app.domino.SpacecraftRepository;
+import com.w2m.app.domino.model.Spacecraft;
+import com.w2m.app.domino.repository.SpacecraftRepository;
 import jakarta.persistence.EntityNotFoundException;
 import java.util.List;
 import java.util.Optional;

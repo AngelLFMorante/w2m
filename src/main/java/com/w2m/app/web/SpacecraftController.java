@@ -1,7 +1,7 @@
 package com.w2m.app.web;
 
 import com.w2m.app.application.service.SpacecraftService;
-import com.w2m.app.domino.Spacecraft;
+import com.w2m.app.domino.model.Spacecraft;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;

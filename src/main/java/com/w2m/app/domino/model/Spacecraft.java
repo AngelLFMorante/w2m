@@ -1,4 +1,4 @@
-package com.w2m.app.domino;
+package com.w2m.app.domino.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
