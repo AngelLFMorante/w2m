@@ -10,4 +10,9 @@ class World2MeetApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void main() {
+		World2MeetApplication.main(new String[]{});
+	}
+
 }
