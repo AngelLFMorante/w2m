@@ -1,9 +1,10 @@
 # SpacecraftManagementApp
-[![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)](https://www.java.com/)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![Java](https://img.shields.io/badge/Java-17-007396?style=flat&logo=java&logoColor=white)](https://www.java.com/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3-6DB33F?style=flat&logo=spring-boot&logoColor=white)](https://spring.io/projects/spring-boot)
 [![Liquibase](https://img.shields.io/badge/Liquibase-007D35?style=flat&logo=liquibase&logoColor=white)](https://www.liquibase.org/)
 [![H2](https://img.shields.io/badge/H2-6DB33F?style=flat&logo=h2&logoColor=white)](https://www.h2database.com/)
 [![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)](https://www.postman.com/)
+![Swagger](https://img.shields.io/badge/Swagger-3-85EA2D?style=flat&logo=swagger)
 
 **SpacecraftManagementApp** es una API REST desarrollada con **Spring Boot** que permite gestionar un conjunto de naves espaciales presentes en series y películas. La API permite realizar operaciones CRUD sobre las naves espaciales, gestionar excepciones personalizadas, y mantener la trazabilidad de las operaciones a través de un log centralizado.
 
