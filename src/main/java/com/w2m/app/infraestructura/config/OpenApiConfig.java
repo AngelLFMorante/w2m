@@ -1,4 +1,4 @@
-package com.w2m.app.config;
+package com.w2m.app.infraestructura.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -8,6 +8,9 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Configuration class for setting up OpenAPI (Swagger) documentation for the Spacecraft API.
  * This class customizes the OpenAPI configuration used for generating API documentation.
+ *
+ * @author Angel Lf Morante
+ * @version 1.0
  */
 @Configuration
 public class OpenApiConfig {
