@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="2" author="angel">
+        <insert tableName="spacecraft">
+            <column name="name" value="X-Wing"/>
+            <column name="type" value="Fighter"/>
+            <column name="origin" value="Rebel Alliance"/>
+        </insert>
+        <insert tableName="spacecraft">
+            <column name="name" value="TIE Fighter"/>
+            <column name="type" value="Fighter"/>
+            <column name="origin" value="Galactic Empire"/>
+        </insert>
+        <insert tableName="spacecraft">
+            <column name="name" value="Millennium Falcon"/>
+            <column name="type" value="Freighter"/>
+            <column name="origin" value="Rebel Alliance"/>
+        </insert>
+        <insert tableName="spacecraft">
+            <column name="name" value="Star Destroyer"/>
+            <column name="type" value="Capital Ship"/>
+            <column name="origin" value="Galactic Empire"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
